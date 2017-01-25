@@ -1,0 +1,13 @@
+parameters:
+    customer_fonction.class:     AppBundle\Utility\Customer
+    customer_fonction.transport: customerfonction
+    sender_service.class:     SoapBundle\Services\SenderService
+    sender_service.transport: sender_service
+
+services:
+    customer_fonction:
+        class:      "%customer_fonction.class%"
+        arguments:  ["%customer_fonction.transport%"]
+    sender_service:
+        class:      "%sender_service.class%"
+        arguments:  ['@mailer']
