@@ -15,7 +15,7 @@ class SenderService
         $this->mailer = $mailer;
     }
     
-    public function sender()
+    public function hello()
     {
 
         $message = \Swift_Message::newInstance()
@@ -24,7 +24,7 @@ class SenderService
                     ->setTo('elouerkhaoui@gmail.com')
                     ->setBody('Body');
         $this->mailer->send($message);
-        return 'Hello';
+        return 'Sent';
         
     }
 }
