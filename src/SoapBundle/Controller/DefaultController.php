@@ -40,7 +40,7 @@ class DefaultController extends Controller
         $client = new \Soapclient('http://localhost/sf_2_8/web/app_dev.php/soap?wsdl');
         //$result = $client->__call('hello', array('name' => 'Scott'));
         $params = array();
-        $result = $client->__call('sender',$params);
+        $result = $client->__call('hello',$params);
         echo $result;exit;
         
     }
