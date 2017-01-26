@@ -14,7 +14,7 @@ class DefaultController extends Controller
      * @Route("/product/new", name="blog_new")
      */
     public function newAction()
-    {        
+    {
         $product = new Product();
         $product->setName('Keyboard');
         $product->setPrice(19.99);
@@ -23,7 +23,7 @@ class DefaultController extends Controller
         $em->persist($product);
         $em->flush();
         return $this->render('default/new.html.twig', array(
-            'test' => $product->getId()
+            'id' => $product->getId()
         ));
     }
     
@@ -62,6 +62,14 @@ class DefaultController extends Controller
         $category = $product->getCategory();
         dump(get_class($category));
         die();
+    }
+    
+    /**
+     * @Route("/admin")
+     */
+    public function adminAction()
+    {
+        return new Response('<html><body>Admin page!</body></html>');
     }
     
 }
