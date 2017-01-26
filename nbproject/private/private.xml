@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/sf_2_8/src/SoapBundle/Services/SenderService.php</file>
+            <file>file:/var/www/sf_2_8/web/bundles/framework/XML/sender.wsdl</file>
+            <file>file:/var/www/sf_2_8/web/bundles/framework/XML/hello.wsdl</file>
+            <file>file:/var/www/sf_2_8/app/config/config_dev.yml</file>
+            <file>file:/var/www/sf_2_8/app/config/parameters.yml.dist</file>
+            <file>file:/var/www/sf_2_8/app/config/services.yml</file>
+            <file>file:/var/www/sf_2_8/app/config/parameters.yml</file>
+            <file>file:/var/www/sf_2_8/app/config/config.yml</file>
+            <file>file:/var/www/sf_2_8/src/SoapBundle/Controller/DefaultController.php</file>
+        </group>
+    </open-files>
+</project-private>
