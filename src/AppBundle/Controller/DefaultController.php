@@ -62,14 +62,5 @@ class DefaultController extends Controller
         $category = $product->getCategory();
         dump(get_class($category));
         die();
-    }
-    
-    /**
-     * @Route("/admin")
-     */
-    public function adminAction()
-    {
-        return new Response('<html><body>Admin page!</body></html>');
-    }
-    
+    }    
 }
